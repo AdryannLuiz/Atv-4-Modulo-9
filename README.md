@@ -30,27 +30,27 @@ Você pode visualizar o projeto online através do seguinte link:
 ## Cronograma de Desenvolvimento
 
 ### Etapa 1: Planejamento e Estruturação
-- **Data de início**: [Data de Início]
-- **Data de conclusão**: [Data de Conclusão]
+- Data de início: 05/12/2024
+- Data de conclusão: 05/12/2024
 - Definir a estrutura inicial da página HTML.
 - Planejar o layout e os estilos em CSS.
 
 ### Etapa 2: Desenvolvimento do Relógio
-- **Data de início**: [Data de Início]
-- **Data de conclusão**: [Data de Conclusão]
+- Data de início: 05/12/2024
+- Data de conclusão: 06/12/2024
 - Implementar a lógica do relógio com JavaScript.
 - Testar o funcionamento do relógio em tempo real.
 
 ### Etapa 3: Ajustes Finais e Estilização
-- **Data de início**: [Data de Início]
-- **Data de conclusão**: [Data de Conclusão]
+- Data de início: 06/12/2024
+- Data de conclusão: 06/12/2024
 - Refinar o design responsivo para diferentes dispositivos.
 - Implementar animações e transições visuais.
 
 ## Tecnologias Usadas  
-- **HTML**: Para a estrutura do site e exibição do relógio.  
-- **CSS**: Para o design e estilização do relógio, incluindo animações e efeitos visuais.  
-- **JavaScript**: Para a lógica do relógio dinâmico e atualização em tempo real dos segundos, minutos e horas.
+- HTML: Para a estrutura do site e exibição do relógio.  
+- CSS: Para o design e estilização do relógio, incluindo animações e efeitos visuais.  
+- JavaScript: Para a lógica do relógio dinâmico e atualização em tempo real dos segundos, minutos e horas.
 
 ## Visão Geral  
 Este projeto foi desenvolvido para demonstrar como usar **JavaScript** para criar um relógio dinâmico que atualiza as horas em tempo real. Além disso, o design foi feito para ser responsivo, permitindo que o relógio se ajuste automaticamente a diferentes dispositivos.
