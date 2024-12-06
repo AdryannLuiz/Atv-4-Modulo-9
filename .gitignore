@@ -1,0 +1,16 @@
+# Ignorar diretórios do sistema
+/.gitconfig
+/.lesshst
+/.nbi/
+/.vscode/
+/AppData/
+/Cookies/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Searches/
+/Saved Games/
+/Videos/
+/ntuser.dat*

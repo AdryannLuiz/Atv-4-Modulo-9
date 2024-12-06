@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FF6F61, #FF4E50, #D84B16); /* Cores quentes */
+    color: #fff;
+    overflow: hidden;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.relogio:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+}
+
+.relogio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 170px;
+    background: linear-gradient(145deg, #FF7A4B, #FF2E00); /* Cores quentes e vibrantes */
+    border-radius: 10px;
+    box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.2),
+                0 8px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.relogio div:hover {
+    transform: translateY(-10px);
+    background: linear-gradient(145deg, #FF9E4A, #FF5733); /* Efeito de transição quente */
+}
+
+.relogio span {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.relogio span.tempo {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
